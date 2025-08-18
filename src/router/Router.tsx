@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '@/pages/Home';
 import StartListPage from '@/components/Card/pages/StartListPage';
+import Layout from '@/components/common/Layout';
 
-export const Router = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
+export const Router = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/starter-pack" element={<StartListPage />} />
-      </Routes>
-    </BrowserRouter>
-  );
-};
+      </Route>
+    </Routes>
+  </BrowserRouter>
+);
