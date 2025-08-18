@@ -3,7 +3,7 @@ import StartpackCard from '../StartpackCard';
 import StartpackModal from '../StartpackModal';
 import { useLikedPacks } from '../hooks/useLikedPacks';
 import { useStarterPackModal } from '../hooks/useStartpackModal';
-import { mockStarterPacks } from '../mock/mock';
+import { mockStartPacks } from '../mock/mock';
 import {
   PageWrap,
   Header,
@@ -34,14 +34,14 @@ const StartListPage: React.FC = () => {
                 <Subtitle>당신의 새로운 시작을 위한 완벽한 세트</Subtitle>
               </div>
             </HeaderTitle>
-            <Meta>총 {mockStarterPacks.length}개의 스타터팩</Meta>
+            <Meta>총 {mockStartPacks.length}개의 스타터팩</Meta>
           </HeaderRow>
         </HeaderInner>
       </Header>
 
       <Main>
         <Grid>
-          {mockStarterPacks.map((pack) => (
+          {mockStartPacks.map((pack) => (
             <StartpackCard
               key={pack.id}
               pack={pack}
