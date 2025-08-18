@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import 'pretendard/dist/web/static/pretendard.css';
 
 export const GlobalStyle = createGlobalStyle`
   *, *::before, *::after { box-sizing: border-box; }
