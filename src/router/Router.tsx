@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '@/pages/Home';
-import StartListPage from '@/components/Card/pages/StartListPage';
+import StartListPage from '@/pages/StartListPage';
 import Layout from '@/components/common/Layout';
 
 export const Router = () => (

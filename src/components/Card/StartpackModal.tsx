@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StarterPack } from './types/StartPackType';
+import type { StarterPack } from '../../types/StartPackType';
 import {
   Backdrop,
   Shell,

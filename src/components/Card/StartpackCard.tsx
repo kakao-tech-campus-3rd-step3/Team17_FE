@@ -1,6 +1,6 @@
 import React from 'react';
 import { Eye, ShoppingCart } from 'lucide-react';
-import type { StarterPack } from './types/StartPackType';
+import type { StarterPack } from '../../types/StartPackType';
 import {
   Card,
   LikeButton,

@@ -1,6 +1,6 @@
 import React from 'react';
-import StartpackCard from '../StartpackCard';
-import StartpackModal from '../StartpackModal';
+import StartpackCard from '@/components/Card/StartpackCard';
+import StartpackModal from '@/components/Card/StartpackModal';
 import { useLikedPacks } from '../hooks/useLikedPacks';
 import { useStarterPackModal } from '../hooks/useStartpackModal';
 import { mockStartPacks } from '../mock/mock';
